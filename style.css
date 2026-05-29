@@ -121,7 +121,7 @@ nav li:hover{
 
     display:flex;
 
-    gap:20px;
+    gap:120px;
 }
 
 button{
@@ -138,8 +138,9 @@ button{
     cursor:pointer;
 
     box-shadow:
-        0 0 10px #1DA1FF,
-        0 0 10px #1DA1FF;
+        0 0 8px #ff3030,
+        0 0 15px #008CFF,
+        0 0 25px rgba(0,140,255,.4);
 }
 
 button:hover{

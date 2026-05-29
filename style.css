@@ -188,11 +188,11 @@ button:hover{
 
 /* ABOUT */
 .about{
-    background:linear-gradient(
-        135deg,
-        #0a0f1f,
-        #111827
-    );
+    background:#0a0f1f;
+
+    color:white;
+
+    padding:100px 120px;
 }
 
 .about h2{
@@ -217,11 +217,11 @@ button:hover{
 /* PROJECTS */
 
 .projects{
-    background:linear-gradient(
-        135deg,
-        #0d1528,
-        #111827
-    );
+      background:#111827;
+
+    color:white;
+
+    padding:100px 120px;
 }
 
 
@@ -277,11 +277,12 @@ button:hover{
 /* CONTACT */
 
 .contact{
-    background:linear-gradient(
-        135deg,
-        #08111d,
-        #0a0f1f
-    );
+ 
+    background:#0a0f1f;
+
+    color:white;
+
+    padding:100px 120px;
 }
 
 .contact h2{
@@ -334,11 +335,11 @@ footer{
 /* SKILLS */
 
 .skills{
-    background:linear-gradient(
-        135deg,
-        #111827,
-        #1b2436
-    );
+    background:#111827;
+
+    color:white;
+
+    padding:100px 120px;
 }
 
 .skills h2{

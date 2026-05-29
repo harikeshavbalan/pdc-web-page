@@ -203,7 +203,6 @@ button:hover{
 
     font-size:3rem;
 }
-
 .about p{
 
     max-width:900px;
@@ -211,6 +210,8 @@ button:hover{
     line-height:1.8;
 
     font-size:1.1rem;
+
+    color:white;
 }
 
 
@@ -234,6 +235,13 @@ button:hover{
     font-size:3rem;
 }
 
+.projects p{
+
+    color:white;
+
+    line-height:1.8;
+}
+
 .project-container{
 
     display:flex;
@@ -248,6 +256,8 @@ button:hover{
     width:320px;
 
     background:#1b2436;
+
+    color:white;
 
     padding:25px;
 
@@ -351,6 +361,7 @@ footer{
     margin-bottom:40px;
 }
 
+
 .skill-container{
 
     display:flex;
@@ -363,6 +374,8 @@ footer{
 .skill-card{
 
     background:#1b2436;
+
+    color:white;
 
     padding:15px 30px;
 
@@ -383,4 +396,12 @@ footer{
         0 0 15px rgba(0,191,255,.5);
 
     color:#00BFFF;
+}
+
+.about,
+.skills,
+.projects,
+.contact{
+
+    color:white;
 }

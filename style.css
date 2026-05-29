@@ -37,8 +37,9 @@ nav{
 }
 
 .logo{
-    font-size:1.5rem;
+    font-size:1.4rem;
     font-weight:600;
+    letter-spacing:1px;
 }
 
 nav ul{
@@ -146,15 +147,9 @@ button:hover{
 }
 
 .miles{
-    position:absolute;
-
     right:-80px;
-
     bottom:-10px;
-
     width:720px;
-
-    z-index:4;
 }
 
 .spider-logo{

@@ -319,3 +319,18 @@ button:hover{
     text-shadow:
         0 0 10px rgba(0,191,255,.5);
 }
+
+footer{
+
+    background:#0a0f1f;
+
+    color:#888;
+
+    text-align:center;
+
+    padding:25px;
+
+    font-size:0.95rem;
+
+    border-top:1px solid rgba(255,255,255,.08);
+}

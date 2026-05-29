@@ -138,8 +138,8 @@ button{
     cursor:pointer;
 
     box-shadow:
-        0 0 15px red,
-        0 0 30px red;
+        0 0 10px red,
+        0 0 10px red;
 }
 
 button:hover{
@@ -172,7 +172,7 @@ button:hover{
 }
 
 .accent-line{
-    width:420px;
+    width:450px;
 
     height:4px;
 

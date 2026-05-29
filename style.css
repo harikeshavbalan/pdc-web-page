@@ -90,8 +90,8 @@ nav li:hover{
     color:white;
 
     text-shadow:
-        0 0 8px rgba(255,0,0,.15),
-        0 0 15px rgba(255,0,0,.1);
+        0 0 20px rgba(255,0,0,.3),
+        0 0 40px rgba(255,0,0,.2);
 }
 
 

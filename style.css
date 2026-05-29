@@ -302,3 +302,20 @@ button:hover{
 
     font-size:1.1rem;
 }
+
+.contact a{
+
+    color:#00BFFF;
+
+    text-decoration:none;
+
+    transition:.3s;
+}
+
+.contact a:hover{
+
+    color:#ff2b2b;
+
+    text-shadow:
+        0 0 10px rgba(0,191,255,.5);
+}

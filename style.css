@@ -147,11 +147,16 @@ button:hover{
 }
 
 .miles{
-    right:-80px;
-    bottom:-10px;
-    width:720px;
-}
+    position:absolute;
 
+    top:70px;
+
+    left:360px;
+
+    width:120px;
+
+    z-index:4;
+}
 .spider-logo{
     position:absolute;
 

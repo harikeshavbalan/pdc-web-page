@@ -185,3 +185,120 @@ button:hover{
         0 0 8px red,
         0 0 15px red;
 }
+
+/* ABOUT */
+
+.about{
+
+    background:#0a0f1f;
+
+    color:white;
+
+    padding:100px 120px;
+}
+
+.about h2{
+
+    color:#ff2b2b;
+
+    margin-bottom:25px;
+
+    font-size:3rem;
+}
+
+.about p{
+
+    max-width:900px;
+
+    line-height:1.8;
+
+    font-size:1.1rem;
+}
+
+
+/* PROJECTS */
+
+.projects{
+
+    background:#111827;
+
+    color:white;
+
+    padding:100px 120px;
+}
+
+.projects h2{
+
+    color:#ff2b2b;
+
+    margin-bottom:50px;
+
+    font-size:3rem;
+}
+
+.project-container{
+
+    display:flex;
+
+    gap:30px;
+
+    flex-wrap:wrap;
+}
+
+.project-card{
+
+    width:320px;
+
+    background:#1b2436;
+
+    padding:25px;
+
+    border-radius:15px;
+
+    border:1px solid rgba(255,255,255,.1);
+
+    transition:.3s;
+}
+
+.project-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:
+    0 0 15px rgba(0,191,255,.4);
+}
+
+.project-card h3{
+
+    color:#00BFFF;
+
+    margin-bottom:15px;
+}
+
+
+/* CONTACT */
+
+.contact{
+
+    background:#0a0f1f;
+
+    color:white;
+
+    padding:100px 120px;
+}
+
+.contact h2{
+
+    color:#ff2b2b;
+
+    margin-bottom:30px;
+
+    font-size:3rem;
+}
+
+.contact p{
+
+    margin-bottom:15px;
+
+    font-size:1.1rem;
+}

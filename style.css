@@ -16,7 +16,7 @@ body{
         rgba(0,0,0,.65),
         rgba(0,0,0,.8)
     ),
-    url('assets/city-bg.jpg');
+    url('city-bg.jpg');
 
     background-size:cover;
     background-position:center;

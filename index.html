@@ -1,234 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Spider-Man Portfolio</title>
-<link href="https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap" rel="stylesheet">
-<style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family: Georgia, serif;
-}
+    <title>Harikeshav Portfolio</title>
 
-body{
-    background:linear-gradient(
-        120deg,
-        #a50008 0%,
-        #a50008 30%,
-        #032859 30%,
-        #032859 100%
-    );
-    min-height:100vh;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-}
+    <link rel="stylesheet" href="style.css">
 
-.container{
-    width:90%;
-    max-width:1250px;
-    background:rgba(0,0,0,0.75);
-    border-radius:6px;
-    overflow:hidden;
-    position:relative;
-}
-
-nav{
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    padding:25px 40px;
-}
-
-.logo{
-    color:white;
-    font-size:2rem;
-    font-weight:bold;
-}
-
-.logo span{
-    color:red;
-}
-
-.nav-links{
-    display:flex;
-    gap:40px;
-}
-
-.nav-links a{
-    color:#ff3333;
-    text-decoration:none;
-}
-
-.hero{
-    display:flex;
-    align-items:center;
-    justify-content:space-between;
-    padding:40px;
-    min-height:550px;
-}
-
-.left{
-    width:45%;
-    color:white;
-}
-
-.left h1{
-    font-size:4rem;
-    margin-bottom:20px;
-    text-transform:uppercase;
-}
-
-.left p{
-    line-height:1.7;
-    color:#ddd;
-}
-
-.buttons{
-    margin-top:40px;
-    display:flex;
-    gap:20px;
-}
-
-.btn{
-    padding:16px 40px;
-    border:none;
-    background:#ff1414;
-    color:white;
-    cursor:pointer;
-    border-radius:10px;
-    box-shadow:0 0 20px red;
-    transition:0.3s;
-}
-
-.btn:hover{
-    transform:translateY(-5px);
-}
-
-.right{
-    width:55%;
-    text-align:right;
-}
-
-.right img{
-    width:100%;
-    max-width:700px;
-}
-
-.features{
-    display:flex;
-    justify-content:space-around;
-    padding:40px;
-    color:white;
-}
-
-.feature{
-    width:28%;
-}
-
-.feature h3{
-    margin-bottom:15px;
-    font-size:2rem;
-}
-
-.feature p{
-    color:#ccc;
-    line-height:1.6;
-}
-
-.spider-bg{
-    position:absolute;
-    left:120px;
-    top:130px;
-    font-size:400px;
-    color:red;
-    opacity:0.08;
-    pointer-events:none;
-}
-
-</style>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
-<div class="container">
+    <div class="hero">
 
-    <div class="spider-bg">🕷</div>
+        <img src="assets/spider-logo.png" class="spider-logo">
 
-    <nav>
-        <div class="logo">
-            SPIDER<span>MAN</span>
-        </div>
+        <nav>
+            <div class="logo">HARIKESHAV</div>
 
-        <div class="nav-links">
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Projects</a>
-            <a href="#">Skills</a>
-            <a href="#">Contact</a>
-        </div>
-    </nav>
+            <ul>
+                <li>Home</li>
+                <li>Projects</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
 
-    <section class="hero">
+        <div class="content">
 
-        <div class="left">
-            <h1>Harikeshav</h1>
+            <h1>HARIKESHAV</h1>
+
+            <h2>Friendly Neighborhood Developer</h2>
 
             <p>
-                Friendly Neighborhood Developer.
-                Student and builder of innovative 
-                software solutions. Passionate
-                about AI, web development, and creating
-                impactful digital experiences.
+                A Computer Science student exploring software
+                development, AI, and digital innovation.
+                Building experiences one line of code at a time.
             </p>
 
             <div class="buttons">
-                <button class="btn">ABOUT ME</button>
-                <button class="btn">PROJECTS</button>
+                <button>Explore Portfolio</button>
+                <button>View Resume</button>
             </div>
+
         </div>
 
-        <div class="right">
-            <img src="spiderman.png" alt="Spider-Man">
-        </div>
+        <img src="assets/miles.png" class="miles">
 
-    </section>
-
-    <section class="features">
-
-        <div class="feature">
-            <h3>01 About</h3>
-            <p>
-                Computer Science student interested
-                in technology, operating systems,
-                and software engineering.
-            </p>
-        </div>
-
-        <div class="feature">
-            <h3>02 Skills</h3>
-            <p>
-                HTML, CSS, JavaScript, Python,
-                AI tools, system design,
-                and problem solving.
-            </p>
-        </div>
-
-        <div class="feature">
-            <h3>03 Goals</h3>
-            <p>
-                Build useful products,
-                launch startups,
-                and become a full-stack developer.
-            </p>
-        </div>
-
-    </section>
-
-</div>
+    </div>
 
 </body>
 </html>

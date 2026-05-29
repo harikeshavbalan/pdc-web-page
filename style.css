@@ -1,0 +1,142 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+}
+
+.hero{
+    height:100vh;
+
+    background:
+    linear-gradient(
+        rgba(0,0,0,.65),
+        rgba(0,0,0,.8)
+    ),
+    url('assets/city-bg.jpg');
+
+    background-size:cover;
+    background-position:center;
+
+    position:relative;
+
+    overflow:hidden;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:30px 80px;
+
+    color:white;
+}
+
+.logo{
+    font-size:1.5rem;
+    font-weight:600;
+}
+
+nav ul{
+    display:flex;
+    gap:40px;
+
+    list-style:none;
+}
+
+nav li{
+    cursor:pointer;
+}
+
+.content{
+    color:white;
+
+    position:absolute;
+
+    left:100px;
+    top:50%;
+
+    transform:translateY(-50%);
+
+    z-index:5;
+}
+
+.content h1{
+    font-family:'Anton',sans-serif;
+
+    font-size:7rem;
+
+    letter-spacing:5px;
+}
+
+.content h2{
+    color:#ff2b2b;
+
+    margin-bottom:20px;
+}
+
+.content p{
+    max-width:500px;
+
+    line-height:1.8;
+}
+
+.buttons{
+    margin-top:30px;
+
+    display:flex;
+
+    gap:20px;
+}
+
+button{
+    padding:15px 30px;
+
+    border:none;
+
+    border-radius:10px;
+
+    background:#ff2020;
+
+    color:white;
+
+    cursor:pointer;
+
+    box-shadow:
+        0 0 15px red,
+        0 0 30px red;
+}
+
+button:hover{
+    transform:translateY(-3px);
+}
+
+.miles{
+    position:absolute;
+
+    right:-40px;
+
+    bottom:-20px;
+
+    width:700px;
+
+    z-index:4;
+}
+
+.spider-logo{
+    position:absolute;
+
+    width:350px;
+
+    left:120px;
+
+    top:120px;
+
+    opacity:.07;
+
+    z-index:1;
+}

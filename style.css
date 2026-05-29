@@ -149,11 +149,11 @@ button:hover{
 .miles{
     position:absolute;
 
-    top:70px;
+    top:100px;
 
-    left:360px;
+    left:860px;
 
-    width:120px;
+    width:140px;
 
     z-index:4;
 }

@@ -90,8 +90,8 @@ nav li:hover{
     color:white;
 
     text-shadow:
-        0 0 20px rgba(255,0,0,.3),
-        0 0 40px rgba(255,0,0,.2);
+        0 0 8px rgba(255,0,0,.15),
+        0 0 15px rgba(255,0,0,.1);
 }
 
 
@@ -172,8 +172,7 @@ button:hover{
 }
 
 .accent-line{
-
-    width:120px;
+    width:220px;
 
     height:4px;
 
@@ -182,6 +181,6 @@ button:hover{
     margin:20px 0;
 
     box-shadow:
-        0 0 10px red,
-        0 0 20px red;
+        0 0 8px red,
+        0 0 15px red;
 }
